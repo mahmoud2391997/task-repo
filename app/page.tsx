@@ -12,20 +12,7 @@ export default function HomePage() {
             <Sparkles className="h-6 w-6 text-emerald-600" aria-hidden="true" />
             <span className="font-semibold tracking-tight">PromptSite</span>
           </div>
-          <nav className="flex items-center gap-3">
-            <Link
-              href="https://nextjs.org/docs/app"
-              target="_blank"
-              className="text-sm text-muted-foreground hover:text-foreground"
-            >
-              Docs
-            </Link>
-            <Button asChild variant="default">
-              <a href="https://vercel.com/new" target="_blank" rel="noreferrer">
-                Deploy
-              </a>
-            </Button>
-          </nav>
+      
         </div>
       </header>
 
